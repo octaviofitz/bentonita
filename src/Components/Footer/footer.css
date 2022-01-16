@@ -1,0 +1,46 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #DC5572;
+    color: #FFFF;
+    margin-bottom: 15px;
+}
+
+.container-footer{
+    margin-top: 15px;
+}
+
+.footer .title-footer{
+    font-weight: 700;
+    padding: 8px;
+}
+
+.datos-footer{
+    margin-top: 12px;
+}
+
+.container-footer-last{
+    margin-top: 12px;
+    margin-bottom: 35px;
+}
+
+.fa-whatsapp,
+.fa-globe-americas{
+    font-size: 28px;
+    padding: 10px 0.5rem;
+    text-decoration: none;
+    color: #FFFF;
+}
+
+@media (min-width: 768px){
+
+.footer{
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.datos-footer{
+    margin-top: 0px;
+}
+
+}

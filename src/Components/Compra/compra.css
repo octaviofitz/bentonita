@@ -1,0 +1,53 @@
+.conseguir-bentonita{
+    border: 1px solid white;
+    margin-bottom: 4rem;
+    background-color: #00ACBB;
+    display: block;
+    animation: conseguirBentonita 5s linear;
+    animation-delay: 0s;
+}
+
+@keyframes conseguirBentonita {
+    
+    from{
+        opacity: 0.2;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+.title-conseguir-bentonita{
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding-top: 1.5rem;
+}
+
+.data-conseguir-bentonita{
+    color: #FFFFFF;
+    font-size: 16px;
+    margin: 10px 15px;
+}
+
+.button-conseguir-bentonita{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 1.8rem 0rem;
+    background-color: #DC5572;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+@media (min-width: 1024px){
+
+    .data-conseguir-bentonita{
+        
+        font-size: 20px;
+        margin: 10px 7rem;
+    }
+
+}

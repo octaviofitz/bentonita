@@ -1,0 +1,103 @@
+.presentacion{
+    display: flex;
+    flex-direction: column;
+    color: #282f39;
+    animation: banner 2.5s linear;
+}
+
+@keyframes banner {
+    
+    from{
+        opacity: 0.2;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+.img-banner{
+    width: 320px;
+    height: 260px;
+}
+
+.title-presentacion{
+    font-weight: 700;
+    font-size: 28px;
+    padding: 0 20px 10px 20px;
+    margin: 16px 25px 0px 15px;
+}
+
+.info-presentacion{
+    color: #304a5d;
+    margin-top: 18px;
+    margin: 10px 25px 0px 25px;
+    padding-bottom: 25px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-bottom: 3px solid #00ACBB;
+}
+
+.img-banner{
+    border-radius: 10px;
+}
+
+@media (min-width: 768px){
+    
+    .presentacion{
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+
+    .card-banner{
+        width: 400px;
+        height: 285px;
+    }
+
+    .img-banner{
+        width: 360px;
+        height: 300px;
+    }
+
+    .img-banner{
+        margin-right: 3rem;
+    }
+
+    .title-presentacion{
+        font-size: 40px;        
+    }
+
+    .info-presentacion{
+        margin-top: 13px;
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1024px){
+
+    .img-banner{
+        width: 420px;
+        height: 320px;
+    }
+
+    .card-banner{
+        width: 500px;
+        height: 280px;
+    }
+
+    .title-presentacion{
+        font-size: 55px;        
+    }
+
+    .info-presentacion{
+        font-size: 22px;
+    }
+}
+
+/* @media (min-width: 1200px){
+
+    .info-presentacion{
+        font-size: 27px;
+    }
+
+} */

@@ -1,0 +1,43 @@
+.card-propiedades{
+    margin-bottom: 20px;
+    border-radius: 300px;
+    background-color: #fcfcfc;
+    animation: propiedadesAnimadas 3.5s linear;
+
+}
+
+@keyframes propiedadesAnimadas {
+    
+    from{
+        opacity: 0.2;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+.container-data-card{
+    background-color: #fcfcfc;
+}
+
+.title-card{
+    color: #282f39;
+    font-size: 20px;
+    margin: 10px 10px;
+}
+
+.description-card{
+    font-size: 16px;
+    color: #304a5d;
+    margin: 10px 10px;
+}
+
+
+@media (min-width: 1024px) {
+
+.card-propiedades{
+    margin: 16px 20px 0px 20px; /* separación de las cards */
+}
+
+}

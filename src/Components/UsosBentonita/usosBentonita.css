@@ -1,0 +1,72 @@
+.container-usos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #f4f4f4;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    border-radius: 15px;
+    width: 85vw;
+    margin: auto;
+    margin-bottom: 4rem;
+    background-color: #fcfcfc;
+    animation: usosBentonita 4s linear;
+}
+
+@keyframes usosBentonita {
+    from {
+        opacity: 0.5;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.title-usos{
+    font-size: 26px;
+    font-weight: 700;
+    margin:1rem 0;
+}
+
+.subtitle-usos{
+    display: none;
+}
+
+.img-usos{
+    width: 35%;
+    height: 25%;
+}
+
+.description-usos{
+    font-size: 22px;
+    margin:0 16px 15px 16px;
+}
+
+.description-usos:last-child{
+    margin-top: 16px;
+}
+
+@media (min-width: 720px) {
+    .container-usos{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .container-title-subtitle{
+        width: 45%;
+    }
+
+    .subtitle-usos{
+        display: inline-block;
+        font-size: 26px;
+    }
+
+    .title-usos{
+        font-size: 34px;
+    }
+
+    .description-usos{
+        font-size: 23px;
+    }
+}

@@ -1,0 +1,19 @@
+.container-propiedades-list{
+    padding-bottom: 25px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 3px solid #00ACBB;
+}
+
+@media (min-width: 1024px) {
+   
+.container-propiedades-list{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 50px 25px 50px;
+}
+
+
+}
