@@ -9,20 +9,20 @@ function PropiedadesContainer() {
         {
             id: 1,
             title: 'Absorción',
-            img: 'absorcion2.png',
+            img: 'propiedad1.png',
             description: 'La bentonita, con predominio de cationes de sodio permite que el agua penetre a través de las plaquetas, provocando hinchazón.'
         },
         {
             id: 2,
-            title: 'Viscosidad',
-            img:  'viscoso.png',
-            description: 'Cuando la bentonita se dispersa en agua, se forman suspensiones coloidales altamente estables con alta viscosidad y tixotropía.'
+            title: 'Impermeabilización',
+            img:  'propiedad3.png',
+            description: 'Cuando el agua es absorbida por la bentonita, se forma un gel semisólido con fuerte resistencia a la presión hidrostática.' 
         },
         {
             id: 3,
-            title: 'Impermeabilización',
-            img: 'impermeable1.png',
-            description: 'Cuando el agua es absorbida por la bentonita, se forma un gel semisólido con fuerte resistencia a la presión hidrostática.'
+            title: 'Viscosidad',
+            img: 'propiedad2.png',
+            description: 'Cuando la bentonita se dispersa en agua, se forman suspensiones coloidales altamente estables con alta viscosidad y tixotropía.'
         }
     ]
  
