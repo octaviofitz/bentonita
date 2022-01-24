@@ -24,7 +24,7 @@ function Footer() {
 
         <div className='container-footer-last'>
             <p className='title-footer'>Contacto</p>
-            <a target='_blanck' href='https://api.whatsapp.com/send?phone=115930042'><i className="fab fa-whatsapp"></i></a>
+            <a target='_blanck' href='https://api.whatsapp.com/send?phone=+541132762324&text=Hola😁'><i className="fab fa-whatsapp"></i></a>
             <a target='_blank' href='http://www.rubicat.com.ar'><i className="fas fa-globe-americas"></i></a>
         </div>
 

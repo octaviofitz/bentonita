@@ -11,7 +11,7 @@ function UsosBentonita() {
         </div>
         <div className='container-img-datos'>
             <img src='../assets/gato.svg' alt='gato' className='img-usos'/>
-           <p className='description-usos'>Arena aglutinante para gatos</p>
+           <p className='description-usos'>Arena sanitaria aglutinante</p>
 
            <img src='../assets/construccion.svg' alt='construccion' className='img-usos' />
            <p className='description-usos'>Construcción</p>
