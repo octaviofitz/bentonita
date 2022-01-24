@@ -1,9 +1,10 @@
 .card-propiedades{
     margin-bottom: 20px;
-    border-radius: 300px;
+    border-radius: 10px;
+    margin: auto;
+    width: 85%;
     background-color: #fcfcfc;
     animation: propiedadesAnimadas 3.5s linear;
-
 }
 
 @keyframes propiedadesAnimadas {
@@ -33,11 +34,25 @@
     margin: 10px 10px;
 }
 
+@media (min-width: 768px) {
+    .card-propiedades{
+        width: 75%;
+    }
+    
+}
+
 
 @media (min-width: 1024px) {
 
 .card-propiedades{
-    margin: 16px 20px 0px 20px; /* separación de las cards */
+    width: 80%;
+}
 }
 
+@media (min-width: 1260px) {
+
+    .card-propiedades{
+        margin-left: 4rem;
+        width: 68%;
+    }
 }

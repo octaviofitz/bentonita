@@ -6,6 +6,11 @@
     margin-bottom: 15px;
 }
 
+.footer a{
+    text-decoration: none;
+    color: #FFFF;
+}
+
 .container-footer{
     margin-top: 15px;
 }

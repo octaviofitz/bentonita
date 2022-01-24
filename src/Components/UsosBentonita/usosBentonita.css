@@ -47,19 +47,20 @@
     margin-top: 16px;
 }
 
-@media (min-width: 720px) {
+@media (min-width: 768px) {
     .container-usos{
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
     }
 
     .container-title-subtitle{
         width: 45%;
+        margin-left: 8rem;
     }
 
     .subtitle-usos{
         display: inline-block;
-        font-size: 26px;
+        font-size: 20px;
     }
 
     .title-usos{
@@ -68,5 +69,31 @@
 
     .description-usos{
         font-size: 23px;
+        margin: -0.5rem 0;
+    }
+
+    .description-usos:last-child{
+        margin-top: -0.8rem;
+    }
+
+    .img-usos{
+        width: 15%;
+        height: 10%;
+        margin: 1rem 0;
+    }
+
+    .container-img-datos{
+        width: 45%;
+        margin: 1.5rem 0;
+    }
+}
+
+@media (min-width: 1024px){
+    .subtitle-usos{
+        font-size: 25px;
+    }
+
+    .description-usos:last-child{
+        margin-top: -0.8rem;
     }
 }

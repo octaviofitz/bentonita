@@ -13,9 +13,10 @@ export default function Propiedades({key, data}) {
     <Card sx={{ maxWidth: 400 }} className='card-propiedades' key={data.id}>
       <CardMedia
         component="img"
-        height="160"
+        height="260"
         image={`../assets/${data.img}`}
         alt={data.title}
+        className='data-img-propiedad'
       />
       
       <CardContent className='container-data-card'>

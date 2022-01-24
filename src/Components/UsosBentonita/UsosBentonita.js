@@ -9,14 +9,14 @@ function UsosBentonita() {
             <h3 className='title-usos'>Usos de la bentonita</h3>
             <p className='subtitle-usos'>Las características especiales de la bentonita (expansión, absorción de agua, viscosidad, tixotropía) permiten el uso de este material en un amplio rango de sectores industriales y aplicaciones.</p>
         </div>
-        <div>
-            <img src='../assets/Usos/gato1.svg' alt='gato' className='img-usos'/>
+        <div className='container-img-datos'>
+            <img src='../assets/gato.svg' alt='gato' className='img-usos'/>
            <p className='description-usos'>Arena aglutinante para gatos</p>
 
-           <img src='../assets/Usos/construccion.svg' alt='construccion' className='img-usos' />
+           <img src='../assets/construccion.svg' alt='construccion' className='img-usos' />
            <p className='description-usos'>Construcción</p>
 
-           <img src='../assets/Usos/maquillaje.svg' alt='maquillaje' className='img-usos' />
+           <img src='../assets/maquillaje.svg' alt='maquillaje' className='img-usos' />
            <p className='description-usos'>Maquillaje</p>
         </div>
 

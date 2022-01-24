@@ -13,10 +13,12 @@ function AppRouter() {
       <BrowserRouter>
 
         <Header />
+        <main>
         <Banner />
         <PropiedadesContainer />
         <UsosBentonita />
         <Compra />
+        </main>
         <Footer />
 
     </BrowserRouter>

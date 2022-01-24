@@ -8,7 +8,7 @@ function Compra() {
     <p className='data-conseguir-bentonita'>Nos encontramos en Argentina</p>
     <p className='data-conseguir-bentonita'>Contamos con distribución de productos desarrollados a base de bentonita en toda la región.
     ¿Te interesa distribuir nuestros productos en tu país? ¡Contactanos!</p>
-    <button className='button-conseguir-bentonita'>Enviar mensaje</button>
+    <a target='_blanck' href='https://api.whatsapp.com/send?phone=115930042'><button className='button-conseguir-bentonita'>Enviar mensaje</button></a>
     </section>
   );
 }

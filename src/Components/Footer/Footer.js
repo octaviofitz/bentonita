@@ -4,11 +4,14 @@ import '../Footer/footer.css'
 import {Link} from 'react-router-dom'
 
 function Footer() {
+
+
+
   return (
     <div className='footer'>
         <div className='container-footer'>
             <p className='title-footer'>Bentonita</p>
-            <p className='datos-footer'>Buenos Aires</p>
+            <a target='_blank' href='https://goo.gl/maps/NErDBLkRu9rTnidCA'><p className='datos-footer'>Buenos Aires</p></a>
             <p className='datos-footer'>Argentina</p>
 
         </div>
@@ -21,8 +24,8 @@ function Footer() {
 
         <div className='container-footer-last'>
             <p className='title-footer'>Contacto</p>
-            <i className="fab fa-whatsapp"></i>
-            <Link target='_blank' to='www.rubicat.com.ar'><i className="fas fa-globe-americas"></i></Link>
+            <a target='_blanck' href='https://api.whatsapp.com/send?phone=115930042'><i className="fab fa-whatsapp"></i></a>
+            <a target='_blank' href='http://www.rubicat.com.ar'><i className="fas fa-globe-americas"></i></a>
         </div>
 
       </div>
